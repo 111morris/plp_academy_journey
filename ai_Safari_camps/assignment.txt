@@ -1,0 +1,61 @@
+Case 1: Hiring Bot
+
+1. What’s Happening:
+
+    A company uses an AI tool to screen job applicants.
+
+    The AI scans resumes, checking things like work experience, education, and skills.
+
+    It helps HR teams save time by filtering out candidates who don’t meet certain criteria before the human team steps in.
+
+2. What’s Problematic:
+
+    The AI tends to reject female applicants with career gaps more often.
+
+    This is an issue because career gaps, especially for women, might be due to things like maternity leave, caregiving, or personal reasons.
+
+    The AI is unintentionally biased by penalizing these gaps, which can exclude talented women who have taken time off for entirely valid reasons.
+
+3. How to Improve:
+
+    The AI needs to be retrained using a more diverse dataset, one that includes women who took career breaks and still have valuable skills.
+
+    Instead of focusing on gaps, the AI should prioritize the quality of experience, skills, and education, regardless of when they were gained.
+
+    Regular audits of the AI’s decisions will help ensure it remains fair over time and doesn’t continue perpetuating bias.
+
+Case 2: School Proctoring AI
+
+1. What’s Happening:
+
+    A school uses an AI-powered proctoring system to monitor students during online exams.
+
+    The AI tracks eye movements to detect possible cheating, like looking at notes or another screen.
+
+    If it spots anything suspicious, it flags the student for further review by human proctors.
+
+2. What’s Problematic:
+
+    The AI is flagging neurodivergent students (those with ADHD, autism, anxiety, etc.) based on their eye movements.
+
+    Neurodivergent students might look around more, take breaks, or move their eyes differently than neurotypical students — but this doesn’t mean they’re cheating.
+
+    The AI isn’t built to account for these differences, which leads to unfair treatment of these students.
+
+3. How to Improve:
+
+    The AI should be retrained with input from neurodivergent students to understand that different eye movements don’t necessarily indicate cheating.
+
+    The system could allow students to voluntarily disclose any conditions that might affect their exam behavior.
+
+    Finally, adding a manual review process where flagged cases are carefully examined by human proctors would help ensure fairness.
+
+Bonus: Responsible AI Detective Agency 
+
+As Responsible AI Inspectors, our job is to spot biases and issues in the systems that influence our lives. We’ve got to make sure AI systems are working fairly for everyone.
+
+    For the Hiring Bot, we need to make sure it’s not rejecting good candidates just because their experience doesn’t fit a narrow "ideal" — especially if that experience includes life events like caregiving or taking a break.
+
+    For the School Proctoring AI, we need to ensure that students are being judged fairly — not penalized because their neurological wiring makes them behave differently during exams.
+
+At the end of the day, AI should help us, not hurt us. By identifying issues and proposing improvements, we’re ensuring that technology does its job while building trust in its use.
