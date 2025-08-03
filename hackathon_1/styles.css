@@ -202,16 +202,16 @@ main {
   letter-spacing: 1px;
 }
 
-.nav ul {
-  list-style: none;
+/* Navigation */
+.main-nav .nav-list {
   display: flex;
   gap: 2rem;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.nav li a {
-  color: #fff;
+.nav-list li a {
   text-decoration: none;
   padding: 0.5rem 1rem;
   transition: all 0.3s ease;
