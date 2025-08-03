@@ -6,10 +6,19 @@ Welcome to my personal developer portfolio! This site showcases my background, s
 
 ---
 
+## 🖼️ Preview
+
+Here’s a quick look at the portfolio:
+
+![Portfolio Preview](./assets/img/preview.png)
+
+
+---
+
 ## 🌐 Live Demo
 
-🔗 [View Portfolio Live](https://your-deployment-url.com)
-(Replace with your live site URL)
+🔗 [View Portfolio Live](https://hackathon-1-lake.vercel.app/)
+
 
 ---
 
@@ -69,6 +78,49 @@ portfolio/
 To clone and run this locally:
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/111morris/hackathon_1.git
    ```
+2. Open the folder:
+
+    ```bash
+   cd hackathon_1
+   ```
+
+
+* No setup required — just double-click or drag into your browser.
+
+---
+
+## 🤝 Contributing
+
+   Contributions are welcome!
+
+   If you spot a typo, styling issue, or have ideas to improve it:
+
+1. Fork this repo
+2. Create a branch (git checkout -b feature/your-feature)
+3. Commit your changes (git commit -m "Add your changes")
+4. Push to your fork (git push origin feature/your-feature)
+5. Create a Pull Request ✅
+
+---
+
+## 📄 License
+
+   This project is licensed under the MIT License.
+
+   Feel free to use, modify, and share — just link back if you can!
+
+---
+
+## 📬 Contact
+
+   Feel free to reach out:
+
+* 📧 Email: [mulandimorris1@gmail.com](mailto:mulandimorris1@gmail.com)
+* 🐙 GitHub: [111morris](https://github.com/111morris)
+* 💼 LinkedIn: [Morris Mulandi](https://www.linkedin.com/in/morris-mulandi-619a18300/)
+
+   Thanks again for visiting my portfolio! 🙌
