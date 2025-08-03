@@ -299,25 +299,106 @@ main {
 
 .hero__wrapper {
   align-items: center;
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/background.jpg") center/cover no-repeat;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 5rem;
+
 }
 
-.hero h1 {
-  color: #fff;
-  font-size: 3rem;
+.hero__title {
+  font-size: var(--fs-biggest);
+  font-weight: var(--fw-bold);
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  color: var(--color-white);
 }
 
-.hero h2 {
-  color: #ccc;
-  margin: 1rem 0;
+.hero__title span {
+  color: var(--color-primary);
 }
+
+.hero__description {
+  font-size: var(--fs-md);
+  color: var(--color-text);
+  margin-bottom: 3rem;
+  line-height: 1.5;
+  max-width: 50ch;
+}
+
+.hero__info {
+  display: flex;
+  gap: 3rem;
+}
+
+.hero__info-wrapper {
+  text-align: center;
+}
+
+.hero__info-number {
+  font-size: var(--fs-xxl);
+  font-weight: var(--fw-bold);
+  color: var(--color-primary);
+}
+
+.hero__info-title {
+  font-size: var(--fs-sm);
+  color: var(--color-white);
+}
+
+.hero__image-wrapper {
+  text-align: center;
+}
+
+.hero__img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 1.6rem;
+  box-shadow: var(--box-shadow);
+  background-color: red;
+  transition: transform 0.3s ease;
+}
+
+.hero__img:hover {
+  transform: scale(1.03);
+}
+
+/* fade in animation */
+.hero__content,
+.hero__image-wrapper {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* .hero__content {
+  background: rgba(17, 33, 45, 0.5);
+   */
+/* dark transparent glass panel */
+/*   -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  padding: 4rem;
+  border-radius: 1.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  transition: var(--transition);
+} */
+
+.hero__image-wrapper {
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: #007bff;
+  background-color: var(--color-border);
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
