@@ -184,11 +184,22 @@ main {
   transition: var(--transition);
 }
 
-.header .logo {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: bold;
+
+.header-container {
+  max-width: var(--width-container);
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Brand */
+.brand {
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-bold);
+  color: var(--color-white);
+  letter-spacing: 1px;
 }
 
 .nav ul {
