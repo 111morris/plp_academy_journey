@@ -1,4 +1,57 @@
-/* Base Styles */
+:root {
+  /* Color Palette */
+  --color-primary: #253745;
+  --color-primary-dark: #11212D;
+  --color-bg-primary: #06141B;
+  --color-bg-secondary: #11212D;
+  --color-bg-footer: #06141B;
+  --color-white: #CCD0CF;
+  --color-text: #9BA8AB;
+  --color-border: #4A5C6A;
+
+  /* Typography */
+  --ff-body: 'Space Grotesk', sans-serif;
+
+  /* Font Sizes */
+  --fs-sm: 1.4rem;
+  --fs-md: 1.6rem;
+  --fs-lg: 2rem;
+  --fs-xl: 2.4rem;
+  --fs-xxl: 3.2rem;
+  --fs-biggest: clamp(3rem, 8vw, 5rem);
+
+  /* Font Weights */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Z-Index Layers */
+  --zindex-menu: 1000;
+  --zindex-fixed: 1010;
+
+  /* Layout Dimensions */
+  --width-container: 98rem;
+  --height-header: 10rem;
+  --height-header--scroll: 8rem;
+
+  /* Effects */
+  --transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset & Base Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Arial", sans-serif;
   line-height: 1.6;
