@@ -409,39 +409,66 @@ main {
   background: #0056b3;
 }
 
+
 /* General Section Styles */
 .section {
   padding: 4rem 0;
 }
+/* about section  */
 
-/* About Section */
-.about-content {
+.about__wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 4rem;
+  align-items: start;
+  background-color: red;
+}
+
+.about__title {
+  font-size: var(--fs-lg);
+  margin-bottom: 1.5rem;
+}
+
+.about__description {
+  font-size: var(--fs-md);
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.skills__wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
 .profile-img {
-  width: 200px;
-  border-radius: 50%;
-  object-fit: cover;
+.skills__content {
+  flex: 1 1 12rem;
 }
 
-/* Skills Section */
-.skill-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
+.skills__subtitle {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-bold);
+  color: var(--color-primary);
+  margin-bottom: 1rem;
 }
 
-.skill-item {
-  background: #f1f1f1;
-  padding: 1rem;
-  text-align: center;
-  border-radius: 4px;
-  transition: all 0.3s ease;
+.skills__list li {
+  font-size: var(--fs-sm);
+  color: var(--color-text);
+  margin-bottom: 0.5rem;
+}
+
+/* Glassmorphism card style */
+.glass-card {
+  background: rgba(17, 33, 45, 0.45);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 1.6rem;
+  padding: 3rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: var(--transition);
 }
 
 .skill-item:hover {
