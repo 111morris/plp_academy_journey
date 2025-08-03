@@ -171,13 +171,17 @@ main {
   color: var(--color-white);
 }
 
-/* Header */
-.header {
+/* Header Styling */
+.site-header {
   position: sticky;
   top: 0;
-  background: #1a1a1a;
-  padding: 1rem 0;
-  z-index: 1000;
+  z-index: var(--zindex-menu);
+  background-color: rgba(17, 33, 45, 0.8);
+  /* fallback for --color-bg-secondary with opacity */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--color-border);
+  transition: var(--transition);
 }
 
 .header .logo {
