@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 Enhanced Content & Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML5 Showcase: Lists, Media, Tables, and Forms</h1>
+      <p>
+        This page demonstrates structured content and form features using HTML5.
+      </p>
+    </header>
+
+    <!-- Section: Lists -->
+    <section>
+      <h2>My Daily Routine</h2>
+
+      <h3>Morning Tasks (Ordered List)</h3>
+      <ol>
+        <li>Wake up</li>
+        <li>Brush teeth</li>
+        <li>Exercise</li>
+        <li>Shower</li>
+        <li>Eat breakfast</li>
+      </ol>
+
+      <h3>Evening Activities (Unordered List)</h3>
+      <ul>
+        <li>Read a book</li>
+        <li>Watch a movie</li>
+        <li>Write code</li>
+        <li>Go to bed</li>
+      </ul>
+    </section>
+
+    <!-- Media -->
+    <section>
+      <h2>Favorite Music & Image</h2>
+
+      <h3>A Relaxing Picture</h3>
+      <img
+        src="assets/image/image.jpg"
+        alt="Placeholder scenic image"
+        width="400"
+        height="200"
+      />
+
+      <h3>My Favorite Song</h3>
+      <audio controls>
+        <source
+          src="assets/music/music.mp3"
+          type="audio/mpeg"
+        />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <!-- Table -->
+    <section>
+      <h2>Weekly Study Schedule</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Topic</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>HTML Basics</td>
+            <td>2 hours</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>CSS Styling</td>
+            <td>1.5 hours</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>HTML5 Forms</td>
+            <td>2 hours</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Registration Form</h2>
+
+      <!--Form-->
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal Info</legend>
+
+          <label for="fullname">Full Name:</label><br />
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="john Doe"
+            required
+          /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@gmail.com"
+            required
+          /><br /><br />
+
+          <label for="password">Password:</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            minlength="6
+            required
+          /><br /><br />
+
+          <label for="phone">Phone Number:</label><br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="123456789"
+          /><br /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+
+          <label for="dob">Date of Birth:</label><br />
+          <input type="date" id="dob" name="dob" required /><br /><br />
+
+          <label for="gender">Gender:</label><br />
+          <select id="gender" name="gender" required>
+            <option value="">--Select--</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option></select
+          ><br /><br />
+
+          <label>Subscribe to newsletter:</label><br />
+          <input
+            type="checkbox"
+            id="subscribe"
+            name="subscribe"
+            checked
+            readonly
+          /><br /><br />
+
+          <label>Choose your interests (just for fun):</label><br />
+          <input type="checkbox" name="interest" value="html" /> HTML<br />
+          <input type="checkbox" name="interest" value="css" /> CSS<br />
+          <input type="checkbox" name="interest" value="js" />
+          JavaScript<br /><br />
+        </fieldset>
+
+        <input type="submit" value="Register" />
+      </form>
+    </section>
+  </body>
+</html>
