@@ -1,0 +1,7 @@
+A programm that reads file and writes 
+error handling 
+	file not found 
+	permission denied 
+	and any other unexpected exceptions 
+
+
