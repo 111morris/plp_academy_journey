@@ -8,6 +8,17 @@ def read_and_modify_file():
         content = infile.read()
         infile.close()
 
+        # this will modify content of the file 
+        modified_content = content.upper()
+
+        # this will open the output file manually 
+        outfile = open('modified_output.txt', 'w')
+        outfile.write(modified_content)
+        outfile.close()
+
+        print("File read successfully and modified content written to 'modified_output.txt'.")
+
+
         # this will modify the content to make it uppercase
         modified_content = content.upper()
     except FileNotFoundError: 
