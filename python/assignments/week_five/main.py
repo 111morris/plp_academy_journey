@@ -2,10 +2,11 @@
 # Class House
 
 class House: 
-    def __init(self, address, bedrooms, bathrooms, price):
+    def __init__(self, address, bedrooms, bathrooms, price):  # fixed __init__ and assignments
         self.address = address
         self.bedrooms = bedrooms
-        self.bathrooms = price
+        self.bathrooms = bathrooms
+        self.price = price
         self.sold = False
 
     def display_info(self): 
@@ -14,6 +15,7 @@ class House:
         print(f"Bathrooms: {self.bathrooms}")
         print(f"Price: KES {self.price:,.2f}")
         print(f"Status: {'Sold' if self.sold else 'Available'}")
+
     def update_price(self, new_price):
         self.price = new_price
         print(f"Price updated to KES {self.price:,.2f}")
@@ -22,6 +24,7 @@ class House:
         self.sold = True
         print("The house has been marked as sold.")
 
+# Create a House object
 my_house = House("123 Lakeview Rd, Kisumu", 3, 2, 8500000)
 my_house.display_info()
 my_house.update_price(8300000)
@@ -29,8 +32,7 @@ my_house.mark_as_sold()
 my_house.display_info()
 
 
-
-# Assignment two
+# Assignment 2
 # Class Vehicle 
 class Vehicle:
     def move(self):
@@ -52,7 +54,5 @@ car = Car()
 plane = Plane()
 
 travel(car)    
-travel(plane)  
-
-
+travel(plane)
 
