@@ -1,0 +1,37 @@
+Transactions => a collection of operations (reads and writes) that are treated as a single logical operation 
+ ATOMICITY ensures the execution complete (either complete or not complete)
+ CONSISTENCY the consistency of a data set (integrity)
+ ISOLATION whatever you are doing/changes will not affect the other person changes (isolated cube)
+ DURABILITY changes are persistence in a non volatile 
+
+Aggregate functions => is a function that performs a calculation on a set of values and returns a single value 
+ some aggregate function are: 
+  COUNT count 
+  SUM calculate the total of a given column 
+  MAX calculate highest value in a column
+  AVG calculate avarage value in a column 
+  MIN calculate the minum value in a column
+
+Group by Clause 
+groups rows into summary rows based on column values or expressions. It returns one row for each group and reducs the number of rows in the rest set 
+
+Having clause 
+is used with the GROUP BY clause to filter the groups based on a specified condition. 
+the HAVING clause allows you to apply a condition to the groups returned by the GROUP BY clause and only include groups that meet the specified condition 
+
+CHECKPOINT QUESTIONS
+1. Explain what "DURABILITY" mean in the ACID properties 
+2. What is the purpose of the GROUP By clause in SQL
+3. Explain the difference between the WHERE and HAVING clause in SQL. When should you use each? 
+4. Explain what an aggregate function is and provide at least three examples of aggregate functions used in SQL 
+
+KEY TAKEAWAYS 
+1. The GROUP BY clause is used to group rows that have the same values in specified columns into summary rows 
+2. The HAVING clause is used to filter the result after the GROUP BY operation 
+3. Durability ensures that ince a transaction is committed, its  changes are permanent, even if the system crashes, preserving data integrity 
+4. Isolation unsures that multiple transaction can occur concurrently without leading to the inconsistency of the database state 
+5. Consistency ensures that a database remains in a valid state before and after a transaction
+6. Atomicity simply means that all queries in a transaction must succed for the transaction to succed
+
+mercy yes mercy 
+mercy what's going on 
