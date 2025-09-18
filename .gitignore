@@ -1,6 +1,6 @@
 todo.txt
 **/ven/
-python/assignments/week_seven/venv/
+python/assignments/venv/
 .env
 
 # Ignore Python cache files
