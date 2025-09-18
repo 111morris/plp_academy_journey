@@ -2,6 +2,9 @@ todo.txt
 **/ven/
 python/assignments/venv/
 .env
+python/assignments/week_eight/metadata.csv
+python/assignments/week_eight/metadata.csv.zip
+
 
 # Ignore Python cache files
 __pycache__/
