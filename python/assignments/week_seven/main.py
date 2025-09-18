@@ -22,3 +22,21 @@ print(df.head())
 
 # Data structure and missing values 
 print("\nDataset info:")
+print(df.info()) 
+
+print("\nMissing values:")
+print(df.isnull().sum())
+
+
+# this is the basic statistics 
+print("\n Descriptive statics")
+print(df.describe())
+
+# group by species and compute mean 
+grouped = df.groupby('species').mean(numeric_only=True)
+print("\nMean values grouped by species:")
+print(grouped) 
+
+
+# pattern observation (print a note) 
+print("\nObservation: ")
